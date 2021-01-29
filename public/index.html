@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Page-title</title>
+	<link rel='stylesheet' href='css/style.css'>
+</head>
+<body>
+
+	<div class='dropdown'>
+		<form>
+			<div>
+				<label for='country-name'>Country:</label>
+				<input required id='country-name' type="country" name="country-name">
+			</div>
+
+			<div>
+				<label for='country-capital'>Capital:</label>
+				<input required id='country-capital' type="capital" name="country-capital">
+			</div>
+
+			<div>
+				<label for='country-language'>Language:</label>
+				<input required id='country-language' type="language" name="country-language">
+			</div>
+
+			<div>
+				<label for='country-currency'>Currency</label>
+				<input required id='country-currency' type="currency" name="country-currency">
+			</div>
+
+			<div>
+				<label for='country-flag'>Flag:</label>
+				<input required type="file" name="flag">
+			</div>
+
+			<div>
+				<button class='country-post' type="submit" name="country-submit">SEND</button>
+			</div>
+
+		</form>
+	</div>
+
+	<label for='country'>Country Name:</label>
+	<input id='country' type="text" name="country">
+
+	<!-- Heading of the page -->
+	<div class='wrapper'>
+		<h4>Type name of the country you are interested in...</h4>
+	</div>
+
+<script src='scripts/script.js'></script>
+</body>
+</html>
